@@ -1001,6 +1001,16 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFA6A6", en
 }
 
 @media screen and (max-width: 600px) {
+    .header-wrapper {
+        padding: 0 10px;
+    }
+    .container{
+        padding: 0;
+    }
+    .gallery-wrapper {
+        padding: 0;
+        box-shadow: none;
+    }
     .ytube {
         padding: 20px;
     }
@@ -1026,7 +1036,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFA6A6", en
         grid-template-columns: 1fr;
     }
     .gallery-section {
-      display:block;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     }
     .gallery-section .imgWrap img {
         margin: 0;
