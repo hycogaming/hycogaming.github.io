@@ -233,7 +233,7 @@ Thank you for visiting Hycogaming. Happy gaming!
       const p = document.createElement("div");
       p.className = "ptag";
       
-    sDiv.append(title,p);
+    sDiv.append(p);
     //overlay
     const sLay = document.createElement("div");
     sLay.className = "imgHolder";
